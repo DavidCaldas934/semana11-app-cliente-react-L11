@@ -28,9 +28,9 @@ class InstrumentoList extends React.Component{
 			<table>
 				<tbody>
 					<tr>
-						<th>First Name</th>
-						<th>Last Name</th>
-						<th>Description</th>
+						<th>Nombre</th>
+						<th>Categoría</th>
+						<th>Descripción</th>
 					</tr>
 					{instrumentos}
 				</tbody>
@@ -43,9 +43,9 @@ class Instrumento extends React.Component{
 	render() {
 		return (
 			<tr>
-				<td>{this.props.instrumento.firstName}</td>
-				<td>{this.props.instrumento.lastName}</td>
-				<td>{this.props.instrumento.description}</td>
+				<td>{this.props.instrumento.nombre}</td>
+				<td>{this.props.instrumento.categoria}</td>
+				<td>{this.props.instrumento.descripcion}</td>
 			</tr>
 		)
 	}

@@ -16,7 +16,7 @@ public class Instrumento {
 
 	public Instrumento() {
 	}
-	
+
 
 	@Override
 	public boolean equals(Object o) {
@@ -70,8 +70,8 @@ public class Instrumento {
 	}
 
 
-	public Instrumento(Long id, String nombre, String codigo, String descripcion) {
-		this.id = id;
+	public Instrumento(String nombre, String codigo, String descripcion) {
+
 		this.nombre = nombre;
 		this.codigo = codigo;
 		this.descripcion = descripcion;
